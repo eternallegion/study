@@ -1,0 +1,23 @@
+환경 초기화: 초기 상태 = 0
+상태 공간 크기: 16, 행동 공간 크기: 4
+
+--- 임의의 행동 시퀀스 시작 ---
+step 1: actions=DOWN(1)
+step 1: actions=DOWN(1)
+  -> 새로운 상태: 4, 보상: 0.0, 종료 여부(terminated): False, 잘림 여부(truncated): False
+step 2: actions=DOWN(1)
+  -> 새로운 상태: 8, 보상: 0.0, 종료 여부(terminated): False, 잘림 여부(truncated): False
+step 3: actions=RIGHT(2)
+  -> 새로운 상태: 9, 보상: 0.0, 종료 여부(terminated): False, 잘림 여부(truncated): False
+step 4: actions=RIGHT(2)
+  -> 새로운 상태: 10, 보상: 0.0, 종료 여부(terminated): False, 잘림 여부(truncated): False
+step 5: actions=DOWN(1)
+  -> 새로운 상태: 14, 보상: 0.0, 종료 여부(terminated): False, 잘림 여부(truncated): False
+step 6: actions=DOWN(1)
+  -> 새로운 상태: 14, 보상: 0.0, 종료 여부(terminated): False, 잘림 여부(truncated): False
+step 7: actions=LEFT(0)
+  -> 새로운 상태: 13, 보상: 0.0, 종료 여부(terminated): False, 잘림 여부(truncated): False
+step 8: actions=DOWN(1)
+  -> 새로운 상태: 13, 보상: 0.0, 종료 여부(terminated): False, 잘림 여부(truncated): False
+--- 임의의 행동 시퀀스 종료 ---
+환경이 닫혔습니다.
